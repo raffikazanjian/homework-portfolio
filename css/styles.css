@@ -14,7 +14,8 @@ html {
 body {
 	padding: 0px;
 	margin: 0px;
-	background-color: #FFCC33;	
+	background: url('../images/new-york-skyline-c.png') 0px 0px no-repeat #FFCC33;
+	background-attachment: fixed;
 	font-family: Audiowide, Verdana, Geneva, sans-serif;
 	color: #000;
 }
@@ -95,6 +96,13 @@ hr {
 	color: rgba(65,79,18,.3);	
 	margin: 15px 0px;
 	clear: both;
+}
+
+#contentProfile {
+	diplay: inline;
+	float: left;
+	margin-top: 30px;
+	width: 75%;
 }
 
 #content {
