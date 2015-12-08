@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Audiowide&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Gudea);
+@import url(https://fonts.googleapis.com/css?family=Marvel);
+
+html {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	line-height: 1;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFCC33;	
+	font-family: Audiowide, Verdana, Geneva, sans-serif;
+	color: #000;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+img {
+	border: 0px;
+}
+
+#mainContent {
+	width: 60%;
+	margin: 0px auto;
+	background-color: #fff;
+	padding: 20px 50px;
+	border: 1px solid black;
+}
+
+#nav {
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+#nav a {
+	display: inline;
+	float: left;
+}
+
+navigation {
+	display: inline;
+	float: right;
+	width: 50%;
+}
+
+h1 {
+	display: inline;
+	float: left;
+	width: 40%;
+	margin: 20px 0px 0px 15px;
+	font-size: 1.7rem;
+	line-height:1.9rem;
+	color: #414F12;
+}
+
+navigation ul li {
+	display: inline;
+	float: right;
+	padding-left: 40px;	
+}
+
+navigation ul li a {
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+	color: #920;
+	padding: 0;
+	margin: 0px;
+	text-decoration: underline;
+}
+
+#content {
+	diplay: inline;
+	float: left;
+	margin-top: 30px;
+	width: 100%;
+}
+
+h2 {
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	color: #414F12;
+}
+
+h3 {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	color: #000;
+}
+
+p {
+	font-family: 'Gudea', Georgia, Serif;
+	font-size: .9rem;
+	line-height: 1rem;
+}
+
+p span {
+	width: 100%;	
+}
+
+p img {
+	display: block;
+	width: 541px;
+	margin: 15px auto 150px auto;
+}
+
+a {
+	font-size: .8rem;
+	line-height: 1.2rem;
+	color: #920;
+}
