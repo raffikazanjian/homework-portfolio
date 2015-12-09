@@ -145,6 +145,12 @@ h3 {
 	width: 40%;
 }
 
+.education li {
+	font-family: "Gudea",Georgia,serif;
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
 p {
 	font-family: 'Gudea', Georgia, Serif;
 	font-size: .9rem;
